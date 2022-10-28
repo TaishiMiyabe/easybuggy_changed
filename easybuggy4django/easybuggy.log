@@ -1,0 +1,460 @@
+[ERROR]	asctime:2022-10-25 16:49:01,953	process:17168	thread:26528	module:views	message:Exception occurs: name 'matu' is not defined
+Traceback (most recent call last):
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 541, in code_injection
+    d['value'] = str(eval(expression))
+  File "<string>", line 1, in <module>
+NameError: name 'matu' is not defined
+[ERROR]	asctime:2022-10-25 17:09:35,426	process:17168	thread:25392	module:views	message:Exception occurs: invalid syntax (<string>, line 1)
+Traceback (most recent call last):
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 541, in code_injection
+    d['value'] = str(eval(expression))
+  File "<string>", line 1
+    ls ./
+        ^
+SyntaxError: invalid syntax
+[ERROR]	asctime:2022-10-25 17:16:39,457	process:9000	thread:24516	module:views	message:Exception occurs: 'module' object is not callable
+Traceback (most recent call last):
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 541, in code_injection
+    d['value'] = str(eval(expression))
+  File "<string>", line 1, in <module>
+TypeError: 'module' object is not callable
+[ERROR]	asctime:2022-10-25 17:35:53,335	process:22416	thread:15368	module:views	message:Exception occurs: malformed node or string on line 1: <ast.Call object at 0x00000230FAA31BA0>
+Traceback (most recent call last):
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 542, in code_injection
+    d['value'] = ast.literal_eval(expression)
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\ast.py", line 110, in literal_eval
+    return _convert(node_or_string)
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\ast.py", line 109, in _convert
+    return _convert_signed_num(node)
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\ast.py", line 83, in _convert_signed_num
+    return _convert_num(node)
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\ast.py", line 74, in _convert_num
+    _raise_malformed_node(node)
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\ast.py", line 71, in _raise_malformed_node
+    raise ValueError(msg + f': {node!r}')
+ValueError: malformed node or string on line 1: <ast.Call object at 0x00000230FAA31BA0>
+[ERROR]	asctime:2022-10-25 17:36:51,526	process:22416	thread:15368	module:views	message:Exception occurs: malformed node or string on line 1: <ast.BinOp object at 0x00000230FAC02980>
+Traceback (most recent call last):
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 542, in code_injection
+    d['value'] = ast.literal_eval(expression)
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\ast.py", line 110, in literal_eval
+    return _convert(node_or_string)
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\ast.py", line 109, in _convert
+    return _convert_signed_num(node)
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\ast.py", line 83, in _convert_signed_num
+    return _convert_num(node)
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\ast.py", line 74, in _convert_num
+    _raise_malformed_node(node)
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\ast.py", line 71, in _raise_malformed_node
+    raise ValueError(msg + f': {node!r}')
+ValueError: malformed node or string on line 1: <ast.BinOp object at 0x00000230FAC02980>
+[ERROR]	asctime:2022-10-25 17:38:28,344	process:22416	thread:15368	module:views	message:Exception occurs: malformed node or string on line 1: <ast.BinOp object at 0x00000230FAD921A0>
+Traceback (most recent call last):
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 542, in code_injection
+    d['value'] = ast.literal_eval(expression)
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\ast.py", line 110, in literal_eval
+    return _convert(node_or_string)
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\ast.py", line 109, in _convert
+    return _convert_signed_num(node)
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\ast.py", line 83, in _convert_signed_num
+    return _convert_num(node)
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\ast.py", line 74, in _convert_num
+    _raise_malformed_node(node)
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\ast.py", line 71, in _raise_malformed_node
+    raise ValueError(msg + f': {node!r}')
+ValueError: malformed node or string on line 1: <ast.BinOp object at 0x00000230FAD921A0>
+[ERROR]	asctime:2022-10-25 17:41:01,246	process:22416	thread:15368	module:views	message:Exception occurs: malformed node or string on line 1: <ast.BinOp object at 0x00000230FAC03DC0>
+Traceback (most recent call last):
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 542, in code_injection
+    d['value'] = ast.literal_eval(expression)
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\ast.py", line 110, in literal_eval
+    return _convert(node_or_string)
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\ast.py", line 109, in _convert
+    return _convert_signed_num(node)
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\ast.py", line 83, in _convert_signed_num
+    return _convert_num(node)
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\ast.py", line 74, in _convert_num
+    _raise_malformed_node(node)
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\ast.py", line 71, in _raise_malformed_node
+    raise ValueError(msg + f': {node!r}')
+ValueError: malformed node or string on line 1: <ast.BinOp object at 0x00000230FAC03DC0>
+[ERROR]	asctime:2022-10-25 18:05:31,131	process:25036	thread:25792	module:views	message:Exception occurs: string indices must be integers
+Traceback (most recent call last):
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 543, in code_injection
+    d['value'] = str(eval(expression, {'__builtins__': 'math'}))
+  File "<string>", line 1, in <module>
+TypeError: string indices must be integers
+[ERROR]	asctime:2022-10-25 18:05:56,909	process:25036	thread:26368	module:views	message:Exception occurs: string indices must be integers
+Traceback (most recent call last):
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 543, in code_injection
+    d['value'] = str(eval(expression, {'__builtins__': 'math'}))
+  File "<string>", line 1, in <module>
+TypeError: string indices must be integers
+[ERROR]	asctime:2022-10-25 18:05:58,405	process:25036	thread:25792	module:views	message:Exception occurs: string indices must be integers
+Traceback (most recent call last):
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 543, in code_injection
+    d['value'] = str(eval(expression, {'__builtins__': 'math'}))
+  File "<string>", line 1, in <module>
+TypeError: string indices must be integers
+[ERROR]	asctime:2022-10-25 18:09:03,237	process:18996	thread:26228	module:views	message:Exception occurs: string indices must be integers
+Traceback (most recent call last):
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 543, in code_injection
+    d['value'] = str(eval(expression, {'__builtins__': 'math'}))
+  File "<string>", line 1, in <module>
+TypeError: string indices must be integers
+[ERROR]	asctime:2022-10-25 18:31:14,608	process:2764	thread:22696	module:views	message:Exception occurs: unhashable type: 'dict'
+Traceback (most recent call last):
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 544, in code_injection
+    d['value'] = str(eval(expression, {'math': m, __builtins__:None}))
+TypeError: unhashable type: 'dict'
+[ERROR]	asctime:2022-10-25 18:31:28,807	process:2764	thread:22696	module:views	message:Exception occurs: unhashable type: 'dict'
+Traceback (most recent call last):
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 544, in code_injection
+    d['value'] = str(eval(expression, {'math': m, __builtins__:None}))
+TypeError: unhashable type: 'dict'
+[ERROR]	asctime:2022-10-25 18:58:30,830	process:26216	thread:26976	module:views	message:Exception occurs: invalid syntax (<string>, line 1)
+Traceback (most recent call last):
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 544, in code_injection
+    d['value'] = str(eval(expression, {'math': m, '__builtins__':None}))
+  File "<string>", line 1
+    c for c in ().__class__.__base__.__subclasses__()
+      ^^^
+SyntaxError: invalid syntax
+[ERROR]	asctime:2022-10-25 19:00:02,795	process:27668	thread:1056	module:views	message:Exception occurs: invalid syntax (<string>, line 1)
+Traceback (most recent call last):
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 544, in code_injection
+    d['value'] = eval(expression, {'math': m, '__builtins__':None}) #str()
+  File "<string>", line 1
+    c for c in ().__class__.__base__.__subclasses__()
+      ^^^
+SyntaxError: invalid syntax
+[ERROR]	asctime:2022-10-26 15:01:42,788	process:19892	thread:15388	module:views	message:Exception occurs: [WinError 10061] 対象のコンピューターによって拒否されたため、接続できませんでした。
+Traceback (most recent call last):
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 598, in mail_header_injection
+    send_email(subject, msg_body)
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 987, in send_email
+    smtp_server = smtplib.SMTP(settings.MAIL_SMTP_HOST, port=settings.MAIL_SMTP_PORT)
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\socket.py", line 845, in create_connection
+    raise err
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\socket.py", line 833, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] 対象のコンピューターによって拒否されたため、接続できませんでした。
+[ERROR]	asctime:2022-10-26 15:03:56,380	process:19892	thread:15388	module:views	message:Exception occurs: [WinError 10061] 対象のコンピューターによって拒否されたため、接続できませんでした。
+Traceback (most recent call last):
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 598, in mail_header_injection
+    send_email(subject, msg_body)
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 987, in send_email
+    smtp_server = smtplib.SMTP(settings.MAIL_SMTP_HOST, port=settings.MAIL_SMTP_PORT)
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\socket.py", line 845, in create_connection
+    raise err
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\socket.py", line 833, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] 対象のコンピューターによって拒否されたため、接続できませんでした。
+[ERROR]	asctime:2022-10-26 15:08:55,103	process:19892	thread:15388	module:views	message:Exception occurs: [WinError 10061] 対象のコンピューターによって拒否されたため、接続できませんでした。
+Traceback (most recent call last):
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 598, in mail_header_injection
+    send_email(subject, msg_body)
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 987, in send_email
+    smtp_server = smtplib.SMTP(settings.MAIL_SMTP_HOST, port=settings.MAIL_SMTP_PORT)
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\socket.py", line 845, in create_connection
+    raise err
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\socket.py", line 833, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] 対象のコンピューターによって拒否されたため、接続できませんでした。
+[ERROR]	asctime:2022-10-26 15:50:41,873	process:19892	thread:18488	module:views	message:Exception occurs: Connection unexpectedly closed
+Traceback (most recent call last):
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 598, in mail_header_injection
+    send_email(subject, msg_body)
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 987, in send_email
+    smtp_server = smtplib.SMTP(settings.MAIL_SMTP_HOST, port=settings.MAIL_SMTP_PORT)
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\smtplib.py", line 343, in connect
+    (code, msg) = self.getreply()
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\smtplib.py", line 405, in getreply
+    raise SMTPServerDisconnected("Connection unexpectedly closed")
+smtplib.SMTPServerDisconnected: Connection unexpectedly closed
+[ERROR]	asctime:2022-10-26 16:04:47,209	process:19640	thread:2128	module:views	message:Exception occurs: [WinError 10061] 対象のコンピューターによって拒否されたため、接続できませんでした。
+Traceback (most recent call last):
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 598, in mail_header_injection
+    send_email(subject, msg_body)
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 987, in send_email
+    smtp_server = smtplib.SMTP("172.25.240.1", port=settings.MAIL_SMTP_PORT) #settings.MAIL_SMTP_HOST
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\socket.py", line 845, in create_connection
+    raise err
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\socket.py", line 833, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] 対象のコンピューターによって拒否されたため、接続できませんでした。
+[ERROR]	asctime:2022-10-27 11:24:16,418	process:19640	thread:34756	module:views	message:Exception occurs: [WinError 10061] 対象のコンピューターによって拒否されたため、接続できませんでした。
+Traceback (most recent call last):
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 598, in mail_header_injection
+    send_email(subject, msg_body)
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 987, in send_email
+    smtp_server = smtplib.SMTP("172.25.240.1", port=settings.MAIL_SMTP_PORT) #settings.MAIL_SMTP_HOST
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\socket.py", line 845, in create_connection
+    raise err
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\socket.py", line 833, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] 対象のコンピューターによって拒否されたため、接続できませんでした。
+[ERROR]	asctime:2022-10-27 12:09:22,971	process:16136	thread:37176	module:views	message:Exception occurs: Connection unexpectedly closed
+Traceback (most recent call last):
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 598, in mail_header_injection
+    send_email(subject, msg_body)
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 987, in send_email
+    smtp_server = smtplib.SMTP("172.25.243.172", port=settings.MAIL_SMTP_PORT) #settings.MAIL_SMTP_HOST
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\smtplib.py", line 343, in connect
+    (code, msg) = self.getreply()
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\smtplib.py", line 405, in getreply
+    raise SMTPServerDisconnected("Connection unexpectedly closed")
+smtplib.SMTPServerDisconnected: Connection unexpectedly closed
+[ERROR]	asctime:2022-10-27 12:12:44,017	process:33696	thread:6824	module:views	message:Exception occurs: [WinError 10060] 接続済みの呼び出し先が一定の時間を過ぎても正しく応答しなかったため、接続できませんでした。または接続済みのホストが応答しなかったため、確立された接続は失敗しました。
+Traceback (most recent call last):
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 598, in mail_header_injection
+    send_email(subject, msg_body)
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 987, in send_email
+    smtp_server = smtplib.SMTP("172.25.243.17", port=settings.MAIL_SMTP_PORT) #settings.MAIL_SMTP_HOST
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\socket.py", line 845, in create_connection
+    raise err
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\socket.py", line 833, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] 接続済みの呼び出し先が一定の時間を過ぎても正しく応答しなかったため、接続できませんでした。または接続済みのホストが応答しなかったため、確立された接続は失敗しました。
+[ERROR]	asctime:2022-10-27 12:13:20,514	process:15976	thread:33112	module:views	message:Exception occurs: Connection unexpectedly closed
+Traceback (most recent call last):
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 598, in mail_header_injection
+    send_email(subject, msg_body)
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 987, in send_email
+    smtp_server = smtplib.SMTP("172.25.243.172", port=settings.MAIL_SMTP_PORT) #settings.MAIL_SMTP_HOST
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\smtplib.py", line 343, in connect
+    (code, msg) = self.getreply()
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\smtplib.py", line 405, in getreply
+    raise SMTPServerDisconnected("Connection unexpectedly closed")
+smtplib.SMTPServerDisconnected: Connection unexpectedly closed
+[ERROR]	asctime:2022-10-27 14:54:57,657	process:15976	thread:28396	module:views	message:Exception occurs: header value appears to contain an embedded header: 'aaaaaaaa\nCc:taishi.miyabe@diva.co.jp'
+Traceback (most recent call last):
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 598, in mail_header_injection
+    send_email(subject, msg_body)
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 993, in send_email
+    smtp_server.sendmail(settings.MAIL_USER, settings.MAIL_ADMIN_ADDRESS, msg.as_string())
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\email\message.py", line 158, in as_string
+    g.flatten(self, unixfrom=unixfrom)
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\email\generator.py", line 116, in flatten
+    self._write(msg)
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\email\generator.py", line 199, in _write
+    self._write_headers(msg)
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\email\generator.py", line 226, in _write_headers
+    self.write(self.policy.fold(h, v))
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\email\_policybase.py", line 326, in fold
+    return self._fold(name, value, sanitize=True)
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\email\_policybase.py", line 369, in _fold
+    parts.append(h.encode(linesep=self.linesep, maxlinelen=maxlinelen))
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\email\header.py", line 389, in encode
+    raise HeaderParseError("header value appears to contain "
+email.errors.HeaderParseError: header value appears to contain an embedded header: 'aaaaaaaa\nCc:taishi.miyabe@diva.co.jp'
+[ERROR]	asctime:2022-10-27 15:01:54,692	process:15976	thread:28396	module:views	message:Exception occurs: header value appears to contain an embedded header: 'aaaaa\nBcc:taishi.miyabe@diva.co.jp'
+Traceback (most recent call last):
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 598, in mail_header_injection
+    send_email(subject, msg_body)
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 993, in send_email
+    smtp_server.sendmail(settings.MAIL_USER, settings.MAIL_ADMIN_ADDRESS, msg.as_string())
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\email\message.py", line 158, in as_string
+    g.flatten(self, unixfrom=unixfrom)
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\email\generator.py", line 116, in flatten
+    self._write(msg)
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\email\generator.py", line 199, in _write
+    self._write_headers(msg)
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\email\generator.py", line 226, in _write_headers
+    self.write(self.policy.fold(h, v))
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\email\_policybase.py", line 326, in fold
+    return self._fold(name, value, sanitize=True)
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\email\_policybase.py", line 369, in _fold
+    parts.append(h.encode(linesep=self.linesep, maxlinelen=maxlinelen))
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\email\header.py", line 389, in encode
+    raise HeaderParseError("header value appears to contain "
+email.errors.HeaderParseError: header value appears to contain an embedded header: 'aaaaa\nBcc:taishi.miyabe@diva.co.jp'
+[ERROR]	asctime:2022-10-27 16:21:08,458	process:26812	thread:37104	module:views	message:Exception occurs: header value appears to contain an embedded header: 'test\nBcc:taishi.miyabe@diva.co.jp'
+Traceback (most recent call last):
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 598, in mail_header_injection
+    send_email(subject, msg_body)
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 993, in send_email
+    smtp_server.sendmail(settings.MAIL_USER, settings.MAIL_ADMIN_ADDRESS, msg.as_string())
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\email\message.py", line 158, in as_string
+    g.flatten(self, unixfrom=unixfrom)
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\email\generator.py", line 116, in flatten
+    self._write(msg)
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\email\generator.py", line 199, in _write
+    self._write_headers(msg)
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\email\generator.py", line 226, in _write_headers
+    self.write(self.policy.fold(h, v))
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\email\_policybase.py", line 326, in fold
+    return self._fold(name, value, sanitize=True)
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\email\_policybase.py", line 369, in _fold
+    parts.append(h.encode(linesep=self.linesep, maxlinelen=maxlinelen))
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\email\header.py", line 389, in encode
+    raise HeaderParseError("header value appears to contain "
+email.errors.HeaderParseError: header value appears to contain an embedded header: 'test\nBcc:taishi.miyabe@diva.co.jp'
+[ERROR]	asctime:2022-10-27 17:33:41,928	process:10564	thread:9524	module:views	message:Exception occurs: (501, b'5.1.7 Invalid address [TYAPR01CA0019.jpnprd01.prod.outlook.com]', 'test')
+Traceback (most recent call last):
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 598, in mail_header_injection
+    send_email(subject, msg_body)
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 993, in send_email
+    smtp_server.sendmail(settings.MAIL_USER, settings.MAIL_ADMIN_ADDRESS, msg.as_string())
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\smtplib.py", line 887, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (501, b'5.1.7 Invalid address [TYAPR01CA0019.jpnprd01.prod.outlook.com]', 'test')
+[ERROR]	asctime:2022-10-27 17:36:23,204	process:10564	thread:9524	module:views	message:Exception occurs: (501, b'5.1.7 Invalid address [TYCPR01CA0163.jpnprd01.prod.outlook.com]', 'test')
+Traceback (most recent call last):
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 598, in mail_header_injection
+    send_email(subject, msg_body)
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 993, in send_email
+    smtp_server.sendmail(settings.MAIL_USER, settings.MAIL_ADMIN_ADDRESS, msg.as_string())
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\smtplib.py", line 887, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (501, b'5.1.7 Invalid address [TYCPR01CA0163.jpnprd01.prod.outlook.com]', 'test')
+[ERROR]	asctime:2022-10-27 17:38:18,015	process:34424	thread:1916	module:views	message:Exception occurs: (501, b'5.1.7 Invalid address [TYAPR01CA0236.jpnprd01.prod.outlook.com]', 'test')
+Traceback (most recent call last):
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 598, in mail_header_injection
+    send_email(subject, msg_body)
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 993, in send_email
+    smtp_server.sendmail(settings.MAIL_USER, settings.MAIL_ADMIN_ADDRESS, msg.as_string())
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\smtplib.py", line 887, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (501, b'5.1.7 Invalid address [TYAPR01CA0236.jpnprd01.prod.outlook.com]', 'test')
+[ERROR]	asctime:2022-10-27 17:40:02,826	process:36060	thread:7156	module:views	message:Exception occurs: (501, b'5.1.7 Invalid address [TYCPR01CA0167.jpnprd01.prod.outlook.com]', 'test')
+Traceback (most recent call last):
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 598, in mail_header_injection
+    send_email(subject, msg_body)
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 993, in send_email
+    smtp_server.sendmail(settings.MAIL_USER, "taishi.miyabe@diva.co.jp", msg.as_string())#settings.MAIL_ADMIN_ADDRESS
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\smtplib.py", line 887, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (501, b'5.1.7 Invalid address [TYCPR01CA0167.jpnprd01.prod.outlook.com]', 'test')
+[ERROR]	asctime:2022-10-27 17:45:02,778	process:21128	thread:30088	module:views	message:Exception occurs: (501, b'5.1.7 Invalid address [TYAPR01CA0121.jpnprd01.prod.outlook.com]', 'test')
+Traceback (most recent call last):
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 598, in mail_header_injection
+    send_email(subject, msg_body)
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 993, in send_email
+    smtp_server.sendmail(settings.MAIL_USER, "taishi.miyabe@diva.co.jp", msg.as_string())#settings.MAIL_ADMIN_ADDRESS
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\smtplib.py", line 887, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (501, b'5.1.7 Invalid address [TYAPR01CA0121.jpnprd01.prod.outlook.com]', 'test')
+[ERROR]	asctime:2022-10-27 17:55:21,971	process:1588	thread:10488	module:views	message:Exception occurs: STARTTLS extension not supported by server.
+Traceback (most recent call last):
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 598, in mail_header_injection
+    send_email(subject, msg_body)
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 992, in send_email
+    smtp_server.starttls()
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\smtplib.py", line 771, in starttls
+    raise SMTPNotSupportedError(
+smtplib.SMTPNotSupportedError: STARTTLS extension not supported by server.
+[ERROR]	asctime:2022-10-27 17:56:14,717	process:18988	thread:25216	module:views	message:Exception occurs: STARTTLS extension not supported by server.
+Traceback (most recent call last):
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 598, in mail_header_injection
+    send_email(subject, msg_body)
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 992, in send_email
+    smtp_server.sendmail(settings.MAIL_USER, "taishi.miyabe@diva.co.jp", msg.as_string())#settings.MAIL_ADMIN_ADDRESS
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\smtplib.py", line 771, in starttls
+    raise SMTPNotSupportedError(
+smtplib.SMTPNotSupportedError: STARTTLS extension not supported by server.
+[ERROR]	asctime:2022-10-27 17:56:44,212	process:32308	thread:28232	module:views	message:Exception occurs: {'taishi.miyabe@diva.co.jp': (454, b'4.7.1 <taishi.miyabe@diva.co.jp>: Relay access denied')}
+Traceback (most recent call last):
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 598, in mail_header_injection
+    send_email(subject, msg_body)
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 992, in send_email
+    smtp_server.sendmail(settings.MAIL_USER, "taishi.miyabe@diva.co.jp", msg.as_string())#settings.MAIL_ADMIN_ADDRESS
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\smtplib.py", line 901, in sendmail
+    raise SMTPRecipientsRefused(senderrs)
+smtplib.SMTPRecipientsRefused: {'taishi.miyabe@diva.co.jp': (454, b'4.7.1 <taishi.miyabe@diva.co.jp>: Relay access denied')}
+[ERROR]	asctime:2022-10-27 18:59:38,543	process:30548	thread:35248	module:views	message:Exception occurs: {'postfixtest@172.25.243.172': (501, b'5.1.3 Bad recipient address syntax')}
+Traceback (most recent call last):
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 598, in mail_header_injection
+    send_email(subject, msg_body)
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 992, in send_email
+    smtp_server.sendmail(settings.MAIL_USER, "postfixtest@172.25.243.172", msg.as_string())#settings.MAIL_ADMIN_ADDRESS
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\smtplib.py", line 901, in sendmail
+    raise SMTPRecipientsRefused(senderrs)
+smtplib.SMTPRecipientsRefused: {'postfixtest@172.25.243.172': (501, b'5.1.3 Bad recipient address syntax')}
+[ERROR]	asctime:2022-10-27 19:00:27,245	process:30548	thread:35248	module:views	message:Exception occurs: {'postfixtest@172.25.243.172': (501, b'5.1.3 Bad recipient address syntax')}
+Traceback (most recent call last):
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 598, in mail_header_injection
+    send_email(subject, msg_body)
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 992, in send_email
+    smtp_server.sendmail(settings.MAIL_USER, "postfixtest@172.25.243.172", msg.as_string())#settings.MAIL_ADMIN_ADDRESS
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\smtplib.py", line 901, in sendmail
+    raise SMTPRecipientsRefused(senderrs)
+smtplib.SMTPRecipientsRefused: {'postfixtest@172.25.243.172': (501, b'5.1.3 Bad recipient address syntax')}
+[ERROR]	asctime:2022-10-27 19:01:26,282	process:20696	thread:16000	module:views	message:Exception occurs: {'postfixtest@localhost': (550, b'5.1.1 <postfixtest@localhost>: Recipient address rejected: User unknown in local recipient table')}
+Traceback (most recent call last):
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 598, in mail_header_injection
+    send_email(subject, msg_body)
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 992, in send_email
+    smtp_server.sendmail(settings.MAIL_USER, "postfixtest@localhost", msg.as_string())#settings.MAIL_ADMIN_ADDRESS
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\smtplib.py", line 901, in sendmail
+    raise SMTPRecipientsRefused(senderrs)
+smtplib.SMTPRecipientsRefused: {'postfixtest@localhost': (550, b'5.1.1 <postfixtest@localhost>: Recipient address rejected: User unknown in local recipient table')}
+[ERROR]	asctime:2022-10-27 19:08:05,115	process:20512	thread:9456	module:views	message:Exception occurs: {'root@IBM-T490S-006-wsl': (454, b'4.7.1 <root@IBM-T490S-006-wsl>: Relay access denied')}
+Traceback (most recent call last):
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 598, in mail_header_injection
+    send_email(subject, msg_body)
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 992, in send_email
+    smtp_server.sendmail(settings.MAIL_USER, "root@IBM-T490S-006-wsl", msg.as_string())#settings.MAIL_ADMIN_ADDRESS
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\smtplib.py", line 901, in sendmail
+    raise SMTPRecipientsRefused(senderrs)
+smtplib.SMTPRecipientsRefused: {'root@IBM-T490S-006-wsl': (454, b'4.7.1 <root@IBM-T490S-006-wsl>: Relay access denied')}
+[ERROR]	asctime:2022-10-27 19:09:06,625	process:37152	thread:25580	module:views	message:Exception occurs: {'root@172.25.243.172': (501, b'5.1.3 Bad recipient address syntax')}
+Traceback (most recent call last):
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 598, in mail_header_injection
+    send_email(subject, msg_body)
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 992, in send_email
+    smtp_server.sendmail(settings.MAIL_USER, "root@172.25.243.172", msg.as_string())#settings.MAIL_ADMIN_ADDRESS
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\smtplib.py", line 901, in sendmail
+    raise SMTPRecipientsRefused(senderrs)
+smtplib.SMTPRecipientsRefused: {'root@172.25.243.172': (501, b'5.1.3 Bad recipient address syntax')}
+[ERROR]	asctime:2022-10-27 19:09:27,216	process:37152	thread:25580	module:views	message:Exception occurs: {'root@172.25.243.172': (501, b'5.1.3 Bad recipient address syntax')}
+Traceback (most recent call last):
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 598, in mail_header_injection
+    send_email(subject, msg_body)
+  File "C:\Users\taishi.miyabe\Desktop\security\Kenro\easybuggy\easybuggy4django\easybuggy\views.py", line 992, in send_email
+    smtp_server.sendmail(settings.MAIL_USER, "root@172.25.243.172", msg.as_string())#settings.MAIL_ADMIN_ADDRESS
+  File "C:\Users\taishi.miyabe\AppData\Local\Programs\Python\Python310\lib\smtplib.py", line 901, in sendmail
+    raise SMTPRecipientsRefused(senderrs)
+smtplib.SMTPRecipientsRefused: {'root@172.25.243.172': (501, b'5.1.3 Bad recipient address syntax')}
